@@ -1,0 +1,17 @@
+{
+  "name": "reurl-test2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test:esm": "node --experimental-modules test.js",
+    "test:commonjs": "node test.cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "reurl": "git+https://github.com/jsepia/reurl.git#commonjs"
+  }
+}
